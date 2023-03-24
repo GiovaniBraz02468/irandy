@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+header{
+
+    background-color: #1b3547;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.nav-linkr{
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 150ms;
+}
+
+.nav-linkr:hover{
+    color: #eae831;
+    transition: 150ms;
+}
+
+.navbar-brand img{
+    width: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 700
+}
+
+.div-header-text{
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.img-curso{
+    border-radius: 50%;
+    width: 250;
+    height: 250px;
+}
+
+.curso-div-transporte-publico{
+    background-image: url(../midia/transporte_coletivo_fundo_dois.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.curso-div-transporte-escolar{
+    background-image: url(../midia/transporte_escolar_fundo_dois.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.text-descri{
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.793);
+}
+
+.titulo-curso{
+    color: white;
+}
+
+.div-desci{
+    margin: auto;
+    color: white;
+    max-width: 550px;
+}
+
+.btn-warning{
+    font-weight: 700;
+}
+
+.logo-curso{
+    width: 350px;
+}
+
+@media (max-width: 681px){
+    .logo-curso{
+        width: 250px;
+    }
+}
