@@ -23,11 +23,9 @@ header{
 }
 
 .navbar-brand img{
-    width: 150px;
-    background-color: white;
+    width: 100px;
     padding: 10px;
     border-radius: 20px;
-    visibility: hidden;
 }
 
 .navbar{
@@ -77,6 +75,36 @@ header{
     background-position: center top;
 }
 
+.curso-div-transporte-perigoso{
+    background-image: url(../midia/transporte_perigoso.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.curso-div-transporte-emergencia{
+    background-image: url(../midia/transporte_emergencia_fundo.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.curso-div-transporte-indivisivel{
+    background-image: url(../midia/transporte_indivisivel_fundo.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
 
 .text-descri{
     padding: 10px;
@@ -109,4 +137,56 @@ header{
     .logo-curso{
         width: 250px;
     }
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.img-cont{
+    width: 100px;
+}
+
+.div-contato{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.div-contato p {
+    margin: 0;
+    padding: 0;
+}
+
+#contzap{
+    background-color: #7AD06D;
+    color: white;
+    font-weight: 800;
+}
+
+#contins{
+    background-color: #C3506E;
+    color: white;
+    font-weight: 800;
+}
+
+#conend{
+    text-align: center;
+    background-color:#eae831;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 767px){
+    footer{
+        width: 300px;
+
+    }
+}
+
+iframe{
+    border-radius: 20px;
 }
